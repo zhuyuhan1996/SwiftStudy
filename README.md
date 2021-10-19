@@ -1,1 +1,4 @@
-# swiftStudy
+### SwiftStudy
+
+- 总结在最开始学习Swift语言中做的笔记、遇到的问题
+- 有问题欢迎评论指证
