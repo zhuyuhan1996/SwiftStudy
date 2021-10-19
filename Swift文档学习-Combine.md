@@ -1,7 +1,7 @@
-观察者模式（Observer Pattern）
+### 观察者模式（Observer Pattern）
 是一种设计模式，用来描述一对多关系：一个对象发生改变时将自动通知其他对象，其他对象将相应做出反应。这两类对象分别被称为被观察目标（Observable）和 观察者（Observer），也就是说一个观察目标可以对应多个观察者，观察者可以订阅它们感兴趣的内容，当观察目标内容改变时，它会向这些观察者广播通知（调用 Observer 的更新方法）。有一点需要说明的是，观察者之间彼此时互相独立的，也并不知道对方的存在。
 
-响应式编程（Reactive Programming）
+### 响应式编程（Reactive Programming）
 是一种编程思想，相对应的也有面向过程编程、面向对象编程、函数式编程等等。不同的是，响应式编程的核心是面向异步数据流和变化的。
 
 Combine
@@ -33,7 +33,7 @@ PassthroughSubject 和 CurrentValueSubject 几乎一样，只是没有初始值�
 
 CurrentValueSubject 相对于 PassthroughSubject, 是沒有.send(), 取而代之的是一个 value, 就像是 didSet 的方式。
 
-操作符
+### 操作符
 
 map 将收到的值按照给定的 closure 转换为其他值，mapError 则将错误转换为另外一种错误类型。
 
